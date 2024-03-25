@@ -1,0 +1,64 @@
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service-box {
+  width: 45%;
+  margin: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-box .service-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  text-align: center;
+}
+
+.service-box h2 {
+  margin-bottom: 0.5rem;
+}
+
+.more-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.more-button:hover {
+  background-color: darkblue;
+}
+
+.service1 {
+  background-image: url("../../Assets/image1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  border-radius: 5px;
+  min-height: 200px;
+  cursor: pointer;
+}
+
+.service2 {
+  background-image: url("../../Assets/image2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  width: 300px;
+  cursor: pointer;
+  min-height: 200px;
+}

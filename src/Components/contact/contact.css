@@ -1,0 +1,29 @@
+.input-type {
+  width: 160px;
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.input-type::placeholder {
+  font-weight: bold;
+}
+
+.input-type:focus {
+  outline: 2px solid black;
+}
+
+.loading-icon {
+  animation: spin 1s linear infinite;
+  color: purple;
+  font-size: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

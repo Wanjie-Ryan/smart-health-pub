@@ -1,0 +1,43 @@
+.registration {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../Assets/image1.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 160px;
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.input::placeholder {
+  font-weight: bold;
+}
+
+.input:focus {
+  outline: 2px solid black;
+}
+
+.loading-icon {
+  animation: spin 1s linear infinite;
+  color: purple;
+  font-size: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
